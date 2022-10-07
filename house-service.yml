@@ -2,12 +2,19 @@ token:
   expiration_time: 864000000
   secret: "{cipher}AQAl4wWru25+AlXu+KsICuuyRYAgOiJrHXTRtDbGQLmG1Rg1umodnXeGrp6fPUKACErUd2YJn2KPI3Ya5WrVhpc+8eCEFdnHB0PK7S+LxP5qkj0hdgSR33qBf1TZipJqO/Kdu6CUaXl5oecZOJx3zArEsDaXn/EN9sA28nVLuFzT02IKY9c4mm2uQeH5935XiFz0t751vZILp/SSEkkwcrTKGPpcIKNVnQBCuMV/DpMI2sBsQbFj/kC+EP2fhQ+eUzgyv68HNrAHR8prtYozIhK1s7dspxFjFEq/q+q8Lzry264yvCQQBwqh1g5kUaSFoXb7KcaODyWoh/UTQZFm03z05kYMXAfM6eHKpiGYdh2oIr6nZKY8bFSlxyi8k6NqjtA="
 
+# spring:
+#   datasource:
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+#     url: jdbc:mysql://localhost:3306/house?serverTimezone=Asia/Seoul
+#     username: root
+#     password: 1234
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/house?serverTimezone=Asia/Seoul
-    username: root
-    password: 1234
+    url: jdbc:house-service-db.cagqpalbhk0j.ap-northeast-2.rds.amazonaws.com:3306/houseDB?serverTimezone=Asia/Seoul
+    username: nanum
+    password: spharos1234!
 
 cloud:
   aws:
