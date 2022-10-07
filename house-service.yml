@@ -12,7 +12,7 @@ token:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:house-service-db.cagqpalbhk0j.ap-northeast-2.rds.amazonaws.com:3306/houseDB?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://house-service-db.cagqpalbhk0j.ap-northeast-2.rds.amazonaws.com:3306/houseDB?serverTimezone=Asia/Seoul
     username: nanum
     password: spharos1234!
 
