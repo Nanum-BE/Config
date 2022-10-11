@@ -12,9 +12,9 @@ token:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://user-service.mysql.database.azure.com/houseDB?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
-      username: nanum
-      password: spharos1234!
+    url: jdbc:mysql://user-service.mysql.database.azure.com/houseDB?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
+    username: nanum
+    password: spharos1234!
 #     driver-class-name: com.mysql.cj.jdbc.Driver
 #     url: jdbc:mysql://house-service-db.cagqpalbhk0j.ap-northeast-2.rds.amazonaws.com:3306/houseDB?serverTimezone=Asia/Seoul
 #     username: nanum
