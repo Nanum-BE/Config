@@ -12,7 +12,7 @@ token:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://user-service.mysql.database.azure.com/housedb?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
+      url: jdbc:mysql://user-service.mysql.database.azure.com/houseDB?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
       username: nanum
       password: spharos1234!
 #     driver-class-name: com.mysql.cj.jdbc.Driver
