@@ -5,7 +5,7 @@ token:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://user-service.mysql.database.azure.com:3306/enrolldb?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
+    url: jdbc:mysql://enrolldb.cagqpalbhk0j.ap-northeast-2.rds.amazonaws.com:3306/enrollDB?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
     username: nanum
     password: spharos1234!
 #   datasource:
