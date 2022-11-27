@@ -1,10 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-#     url: jdbc:mysql://user-service.mysql.database.azure.com/boardDB?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
-    url: jdbc:mysql://board-db.c6wdnggbxhjq.ap-northeast-2.rds.amazonaws.com/boardDB?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
-    username: nanum
-    password: spharos1234!
+    url: 
+    username: 
+    password: 
 
 token:
   expiration_time: 864000000
