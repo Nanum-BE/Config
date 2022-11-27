@@ -5,15 +5,15 @@ token:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://housedb.cp4ikllx0jxf.ap-northeast-2.rds.amazonaws.com/houseDB?useSSL=false&allowMultiQueries=true&serverTimezone=UTC
-    username: nanum
-    password: spharos1234!
+    url: 
+    username: 
+    password: 
     
 cloud:
   aws:
     credentials:
-      accessKey: AKIA57UFQZGBSHW5BY2Z
-      secretKey: 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
+      accessKey: 
+      secretKey: 
     s3:
       bucket: nanumbucket
     region:
